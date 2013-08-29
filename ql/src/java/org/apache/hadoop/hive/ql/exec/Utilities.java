@@ -210,9 +210,9 @@ public final class Utilities {
       assert jobID != null;
       gWork = gWorkMap.get(jobID);
       if (gWork == null) {
-        String jtConf = ShimLoader.getHadoopShims().getJobLauncherRpcAddress(job);
+        //String jtConf = ShimLoader.getHadoopShims().getJobLauncherRpcAddress(job);
         String path;
-        if (jtConf.equals("local")) {
+        if (ShimLoader.getHadoopShims().isLocalMode(job)/*jtConf.equals("local")*/) {
           String planPath = HiveConf.getVar(job, HiveConf.ConfVars.PLAN);
           path = new Path(planPath).toUri().getPath();
         } else {
