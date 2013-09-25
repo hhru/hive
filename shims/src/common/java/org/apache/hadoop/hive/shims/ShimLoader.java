@@ -147,9 +147,10 @@ public abstract class ShimLoader {
     case 0:
       break;
     case 1:
-      return "0.20S";
     case 2:
-      return "0.23";
+      return "0.20S";
+    /*case 2:
+      return "0.23";*/
     default:
       throw new IllegalArgumentException("Unrecognized Hadoop major version number: " + vers);
     }
