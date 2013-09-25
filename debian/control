@@ -1,0 +1,12 @@
+Source: hive
+Section: utils
+Priority: extra
+Maintainer: Alex Dvoretsky (hh.ru project package signing) <alex@dvoretsky.name>
+Build-Depends: cdbs, debhelper (>= 7), libxml-xpath-perl, ant(>=1.8)
+Standards-Version: 3.9
+
+Package: hive
+Architecture: all
+Depends: hadoop-client
+Description: SQL-engine on top of Hadoop MRv1
+ SQL-engine on top of Hadoop MRv1
