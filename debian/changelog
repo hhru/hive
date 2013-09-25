@@ -1,0 +1,5 @@
+hive (0.11-hh1.0) unstable; urgency=low
+
+  * Apache Hive custom build for CDH4
+
+ -- Alex Dvoretsky <alex@dvoretsky.name>  Thu, 07 Nov 2013 14:43:13 +0400
