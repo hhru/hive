@@ -1,0 +1,13 @@
+Source: hive
+Section: hh
+Priority: extra
+Maintainer: Alex Dvoretsky (hh.ru project package signing) <alex@dvoretsky.name>
+Build-Depends: cdbs, debhelper (>= 7), libxml-xpath-perl
+Standards-Version: 3.8.4
+Homepage: 
+
+Package: hive
+Architecture: all
+Depends: hadoop-client
+Description: User statistics
+ User action statistics report engine
