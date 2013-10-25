@@ -1,3 +1,9 @@
+hive (0.11.1.hh) unstable; urgency=low
+
+  * Hadoop version checking hack
+
+ -- Alexander Akopov <akopov.alexander@gmail.com>  Wed, 25 Sep 2013 18:00:00 +0400
+
 hive (0.11.hh) unstable; urgency=low
 
   * Apache Hive custom build for CDH4
