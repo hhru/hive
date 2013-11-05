@@ -36,7 +36,9 @@
       <exclude org="org.apache.geronimo.specs" module="geronimo-jta_1.1_spec"/>
     </dependency>
     <dependency org="commons-pool" name="commons-pool" rev="${commons-pool.version}"/>
-    <dependency org="org.datanucleus" name="datanucleus-connectionpool" rev="${datanucleus-connectionpool.version}"
+    <!--<dependency org="org.datanucleus" name="datanucleus-connectionpool" rev="${datanucleus-connectionpool.version}"
+                transitive="false"/>-->
+     <dependency org="org.datanucleus" name="datanucleus-api-jdo" rev="${datanucleus-api-jdo.version}"
                 transitive="false"/>
      <dependency org="org.datanucleus" name="datanucleus-core" rev="${datanucleus-core.version}"
                 transitive="false"/>
@@ -44,7 +46,7 @@
                 transitive="false"/>
     <dependency org="org.datanucleus" name="datanucleus-rdbms" rev="${datanucleus-rdbms.version}"
                 transitive="false"/>
-    <dependency org="javax.jdo" name="jdo2-api" rev="${jdo-api.version}"
+    <dependency org="javax.jdo" name="jdo-api" rev="${jdo-api.version}"
                 transitive="false"/>
     <dependency org="org.apache.derby" name="derby" rev="${derby.version}"/>
     <dependency org="asm" name="asm" rev="${asm.version}"/>

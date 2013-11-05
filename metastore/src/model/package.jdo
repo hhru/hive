@@ -63,7 +63,7 @@
         <column name="FTYPE" length="4000" jdbc-type="VARCHAR" allows-null="false"/>
       </field>
       <field name="comment" >
-        <column name="FCOMMENT" length="4000" jdbc-type="VARCHAR" allows-null="true"/>
+        <column name="COMMENT" length="4000" jdbc-type="VARCHAR" allows-null="true"/>
       </field>
     </class>
 
@@ -373,7 +373,7 @@
       </field>
     </class>
     
-    <class name="MIndex" table="IDXS" identity-type="datastore" detachable="true">
+    <class name="MIndex" table="INTEGER_IDXS" identity-type="datastore" detachable="true">
       <index name="UniqueINDEX" unique="true">
         <column name="INDEX_NAME"/>
         <column name="ORIG_TBL_ID"/>

@@ -2,6 +2,7 @@ build:
 	JAVA_HOME=/usr/lib/jvm/java-6-oracle ant package
 
 clean:
+	ant very-clean
 	rm -rfv build
 
 install:
