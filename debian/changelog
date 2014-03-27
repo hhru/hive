@@ -1,3 +1,9 @@
+hive (0.11.2.hh) unstable; urgency=low
+
+  * Hive Web Interface HIVE-5132 patch
+
+ -- Alexander Akopov <akopov.alexander@gmail.com>  Thu, 27 Mar 2013 18:00:00 +0400
+
 hive (0.11.1.hh) unstable; urgency=low
 
   * Hadoop version checking hack
