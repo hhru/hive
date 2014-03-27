@@ -1,3 +1,9 @@
+hive (0.12-hh1.1) unstable; urgency=low
+
+  * Hive Web Interface HIVE-5132 patch
+
+ -- Alexander Akopov <akopov.alexander@gmail.com>  Thu, 27 Mar 2013 18:00:00 +0400
+
 hive (0.12-hh1.0) unstable; urgency=low
 
   * Apache Hive for HeadHunter (CDH4)
